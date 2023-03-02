@@ -43,13 +43,15 @@ function Navbar() {
         <p className="text-white bg-black rounded-full p-2">Delivery</p>
         <p className="p-2">Pick Up</p>
       </div>
-      
+
       {/* overlay */}
       {nav ? (
         <div className="bg-black/80 fixed w-full h-screen z-10 top-0 left-0"></div>
       ) : (
         ""
       )}
+
+      {/* Side drawer menu */}
       <div
         className={
           nav
