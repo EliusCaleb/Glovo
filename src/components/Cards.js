@@ -8,7 +8,7 @@ function Cards() {
             {/* overlay */}
             <div className='absolute w-full h-full rounded-xl text-white bg-black/50 '>
                 <p className='pt-4 px-2 text-2xl font-bold'> Sun's Out, BOGO's Out</p>
-                <p className='px-2 py-4'>Through 7/24 </p>
+                <p className='px-2 '>Through 7/24 </p>
                 <button className='text-black border-white bg-white bottom-4 mx-2 absolute'>Order Now</button>
             </div>
             <img
